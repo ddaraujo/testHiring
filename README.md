@@ -11,5 +11,5 @@ GCC: 4.4.7-23.el6.i686
 
 g++ src/*.cpp -lcurl -ljson -o paytvHiringProject
 
-# UNIT TESTS COMPILE OPTIONS:
+#UNIT TESTS COMPILE OPTIONS:
 g++ unit_test/unittest*.cpp src/InputOptions.cpp src/OmdbSearch.cpp -lcurl -ljson -o unittest_Main -lgtest -lgtest_main -pthread
